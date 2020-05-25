@@ -1,0 +1,32 @@
+@import url(./__nav/footer__nav.css);
+@import url(./__links/footer__links.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__list-item/footer__list-item.css);
+@import url(./__link/footer__link.css);
+
+.footer {
+    max-width: 1184px; 
+    margin: 0 auto;
+    padding-bottom: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        margin: 0 48px;
+    }
+
+}
+
+@media screen and (max-width: 986px) {
+    .footer {
+        margin: 0 24px;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+    .footer {
+        margin: 0 16px;
+    }
+
+}

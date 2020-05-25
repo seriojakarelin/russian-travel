@@ -1,0 +1,20 @@
+.cover__link {
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.cover__link:hover {
+    background-color: rgba(0, 0, 0, .8);
+    transition: background-color 0.4s linear;
+}
+
+@media screen and (max-width: 1184px) {
+    .cover__link {
+        height: 62.5vw;
+    }
+}
