@@ -8,20 +8,21 @@
     margin: 0 auto 92px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .intro {
-        margin: 0 48px 88px;
+        width: calc((928/1024)*100%);
     }
 }
 
-@media screen and (max-width: 986px) {
+@media screen and (max-width: 1023px) {
     .intro {
-        margin: 0 24px 88px;
+        margin: 0 auto 88px;
     }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 767px) {
     .intro {
-        margin: 0 16px 64px;
+        width: calc((288/320)*100%);
+        margin: 0 auto 64px;
     }
 }

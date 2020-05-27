@@ -11,21 +11,21 @@
     align-items: flex-end;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .header {
-        margin: 0 48px 56px;
+        width: calc((928/1024)*100%);
+        margin: 0 auto 48px;
     }
 }
 
-@media screen and (max-width: 986px) {
+@media screen and (max-width: 1023px) {
     .header {
-        margin: 0 24px 56px;
+        width: calc((720/768)*100%);
     }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 767px) {
     .header {
-        padding: 16px 0 0;
-        margin: 0 16px 56px;
+        width: calc((288/320)*100%);
     }
 }

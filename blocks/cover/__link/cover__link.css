@@ -6,6 +6,7 @@
     align-items: center;
     text-decoration: none;
     background-color: rgba(0,0,0,0.3);
+    transition: background-color 0.4s linear;
 }
 
 .cover__link:hover {
@@ -13,7 +14,7 @@
     transition: background-color 0.4s linear;
 }
 
-@media screen and (max-width: 1184px) {
+@media screen and (max-width: 1279px) {
     .cover__link {
         height: 62.5vw;
     }

@@ -1,11 +1,10 @@
 .photo-grid__item {
-    object-fit: cover;
     width: 100%;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 767px) {
     .photo-grid__item {
-        margin: 0 0 12px;
+        margin: 0 auto 12px;
     }
 
     .photo-grid__item:last-child {
