@@ -1,12 +1,20 @@
+@import url(./__item/places__item.css);
+@import url(./__title/places__title.css);
+@import url(./__website/places__website.css);
+@import url(./__url-heading/places__url-heading.css);
+@import url(./__link/places__link.css);
+@import url(./__image/places__image.css);
+@import url(./__text/places__text.css);
+@import url(./__paragraph/places__paragraph.css);
+
 .places {
     max-width: 1003px;
-    margin: 0 auto 92px;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1279px) {
     .places {
         width: calc((928/1024)*100%);
-        margin: 0 auto 88px;
     }
 }
 
@@ -19,6 +27,5 @@
 @media screen and (max-width: 767px) {
     .places {
         width: 100%;
-        margin: 0 auto 64px;
     }
 }

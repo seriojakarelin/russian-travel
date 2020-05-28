@@ -1,0 +1,11 @@
+.places__paragraph {
+    margin: 0 0 24px;
+}
+
+.places__paragraph:nth-child(2n) {
+    margin: 0;
+}
+
+.places__paragraph:last-child {
+    margin: 0;
+}
